@@ -1,6 +1,6 @@
 package _J_04_While_Loop;
 
-public class WhileExample {
+public class _04_WhileExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

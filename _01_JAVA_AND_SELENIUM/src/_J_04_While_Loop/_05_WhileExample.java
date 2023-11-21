@@ -1,6 +1,6 @@
 package _J_04_While_Loop;
 
-public class pali {
+public class _05_WhileExample {
 
 
  public static void main(String args[]){  
