@@ -1,6 +1,6 @@
 package _J_06_If_Conditions;
 
-public class ifcondi {
+public class _05_ifcondi_IT_ST {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int m=70;

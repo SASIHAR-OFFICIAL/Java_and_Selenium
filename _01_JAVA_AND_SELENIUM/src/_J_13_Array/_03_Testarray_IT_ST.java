@@ -1,5 +1,5 @@
 package _J_13_Array;
-class Testarray{
+class _03_Testarray_IT_ST{
 public static void main(String args[]){
 
 int a[]=new int[5];//declaration and instantiation

@@ -1,6 +1,6 @@
 package _J_10_Switch_Case;
 
-public class SwitchExample {
+public class _04_SwitchExample_Others {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

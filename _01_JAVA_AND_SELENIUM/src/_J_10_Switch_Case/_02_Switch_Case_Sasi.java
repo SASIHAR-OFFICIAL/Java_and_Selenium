@@ -1,6 +1,6 @@
 package _J_10_Switch_Case;
 
-public class IT06_Switch_Case {
+public class _02_Switch_Case_Sasi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

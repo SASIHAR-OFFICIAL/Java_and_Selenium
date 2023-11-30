@@ -1,6 +1,6 @@
 package _J_05_Do_While_Loop;
 
-public class IT03_Do_While {
+public class _02_Do_While_Sasi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

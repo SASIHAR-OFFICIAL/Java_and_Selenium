@@ -1,6 +1,6 @@
 package _J_06_If_Conditions;
 
-public class IfExamples {
+public class _06_IfExamples_Others {
 	public static void main(String[] args) {  
 	    int age=35;  
 	    if(age>30){  

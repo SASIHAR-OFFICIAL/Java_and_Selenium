@@ -8,7 +8,7 @@ interface Print1{
 interface Showable{  
 	void show();  
 }  
-class Inheritan_interclas implements Showable, Print1{
+class _03_Inheritan_interclas_IT_ST implements Showable, Print1{
 	public void print(){
 		int a=20,b=10,c;
 		c=a+b;
@@ -25,7 +25,7 @@ class Inheritan_interclas implements Showable, Print1{
 		System.out.println(c);} 
 
 	public static void main(String args[]){  
-		//Inheritance_interclas obj = new Inheritance_interclas(); 
+		_03_Inheritan_interclas_IT_ST obj = new _03_Inheritan_interclas_IT_ST(); 
 		Print1 obj = new Print1();
 		//Object creation not possible in interface name
 		obj.Print1();

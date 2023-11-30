@@ -1,6 +1,6 @@
 package _J_16_Method;
 
-public class IT10_Method {
+public class _02_Method_Sasi {
 
 public void logicmethod()
 
@@ -16,7 +16,7 @@ public void logicmethod2()
 }
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
-IT10_Method e=new IT10_Method();
+	_02_Method_Sasi e=new _02_Method_Sasi();
 e.logicmethod();
 e.logicmethod2();
 }

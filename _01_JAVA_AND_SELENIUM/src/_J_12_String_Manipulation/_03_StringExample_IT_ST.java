@@ -1,5 +1,5 @@
 package _J_12_String_Manipulation;
-public class StringExample{  
+public class _03_StringExample_IT_ST{  
 public static void main(String args[]){  
 String s1="java";  
 char ch[]={'s','t','r','i','n','g','s'};  

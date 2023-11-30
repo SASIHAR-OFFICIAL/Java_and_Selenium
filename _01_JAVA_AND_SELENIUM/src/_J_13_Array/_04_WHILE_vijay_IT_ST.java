@@ -1,6 +1,6 @@
 package _J_13_Array;
 
-public class WHILE_vijay {
+public class _04_WHILE_vijay_IT_ST {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

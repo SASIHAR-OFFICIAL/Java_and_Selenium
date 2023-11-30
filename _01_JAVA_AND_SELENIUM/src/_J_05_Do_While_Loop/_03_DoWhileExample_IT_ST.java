@@ -1,5 +1,5 @@
 package _J_05_Do_While_Loop;
-public class DoWhileExample {  
+public class _03_DoWhileExample_IT_ST {  
 public static void main(String[] args) {  
     int i=1;  
     do{  

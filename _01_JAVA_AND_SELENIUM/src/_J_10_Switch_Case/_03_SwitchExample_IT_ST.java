@@ -1,5 +1,5 @@
 package _J_10_Switch_Case;
-public class SwitchExample {  
+public class _03_SwitchExample_IT_ST {  
 public static void main(String[] args) {  
     int number=20;  
     switch(number){  

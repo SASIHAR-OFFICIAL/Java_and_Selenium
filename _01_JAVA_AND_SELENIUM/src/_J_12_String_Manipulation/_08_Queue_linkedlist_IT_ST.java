@@ -3,7 +3,7 @@ package _J_12_String_Manipulation;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Queue_linkedlist {
+public class _08_Queue_linkedlist_IT_ST {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,5 +1,5 @@
 package _J_08_If_Else_If;
-public class _01_If_Else_If_01 {
+public class _01_If_Else_If_01_Payilagam {
 	public static void main(String[] args) {
 		int a=10, b=10, c=10, d=10;
 		if(a>b) {

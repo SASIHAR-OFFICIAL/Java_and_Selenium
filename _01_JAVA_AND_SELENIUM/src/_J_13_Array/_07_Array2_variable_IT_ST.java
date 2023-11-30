@@ -1,45 +1,30 @@
 package _J_13_Array;
+public class _07_Array2_variable_IT_ST {
+	//import java.util.Math.max()
+	public static void main(String[] args) {
+		bank b ;
+		b = new Axis();
+		b.sum();
+	}
+}
+class bank{ 
+	void sum(){
+		float p  = 100087,n = 10,r = 3;
+		float SI =  (p * n* r)/100;
+		System.out.println(" The simple interest is:" +SI);} 
+}
+class Axis extends bank{ 
+	void sum(){
+		int p = 200067,n = 5,r = 5;
+		float SI = (p * n * r)/100;
+		double IS = (p * n * r)/100;
 
-public class Array2_variable {
+		System.out.println(" The Simple interest is:"+SI);
+		System.out.println(" The Simple interest is:"+IS);
+	} 
 
-		
-
-		//import java.util.Math.max()
-		
-
-			public static void main(String[] args) {
-				
-				bank b ;
-				b = new Axis();
-				b.sum();
-				
-				
-			}
-		}
+}
 
 
-		class bank{ 
-			  void sum(){
-				  float p  = 100087,n = 10,r = 3;
-				 float SI =  (p * n* r)/100;
-				  System.out.println(" The simple interest is:" +SI);} 
-			      
-			
-		}
-			 
-			class Axis extends bank{ 
-			   
-			  void sum(){
-				  int p = 200067,n = 5,r = 5;
-				  float SI = (p * n * r)/100;
-				  double IS = (p * n * r)/100;
-				  
-				System.out.println(" The Simple interest is:"+SI);
-				System.out.println(" The Simple interest is:"+IS);
-			  } 
-			   
-			}
-
-	
 
 

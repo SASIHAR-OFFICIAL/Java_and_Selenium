@@ -41,7 +41,7 @@ public class IT_ST_13_Assertion_Sasi_2019 {
 			 System.out.println("Assertion starts here...");
 			 Assert.assertEquals(Title, GetTitle);
 			 System.out.println("As Per Expected");
-d.
+
 		}
 
 	}

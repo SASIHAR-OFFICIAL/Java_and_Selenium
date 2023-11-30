@@ -1,4 +1,4 @@
-package S_01_IT_ST;
+package _S_01_IT_ST;
 
 import java.io.File;
 import java.util.concurrent.ThreadFactory;
@@ -21,7 +21,7 @@ import org.testng.Assert;
 public class IT_ST_14_Drag_and_Drop_1_Teached {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-			System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver d=new ChromeDriver();
 			d.manage().window().maximize();
 			d.get("http://demo.guru99.com/test/drag_drop.html");	

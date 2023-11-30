@@ -1,5 +1,5 @@
 package _J_08_If_Else_If;
-public class _01_If_Else_If_02 {
+public class _01_If_Else_If_02_Payilagam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

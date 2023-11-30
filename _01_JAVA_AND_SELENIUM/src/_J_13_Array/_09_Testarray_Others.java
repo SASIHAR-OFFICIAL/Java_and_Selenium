@@ -1,6 +1,6 @@
 package _J_13_Array;
 
-public class Testarray {
+public class _09_Testarray_Others {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

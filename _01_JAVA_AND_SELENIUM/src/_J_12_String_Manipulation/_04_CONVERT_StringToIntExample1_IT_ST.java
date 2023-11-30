@@ -1,7 +1,7 @@
 package _J_12_String_Manipulation;
     //Java Program to demonstrate the conversion of String into int  
     //using Integer.parseInt() method  
-    public class StringToIntExample1{  
+    public class _04_CONVERT_StringToIntExample1_IT_ST{  
     public static void main(String args[]){  
     //Declaring String variable  
     String s="200";  

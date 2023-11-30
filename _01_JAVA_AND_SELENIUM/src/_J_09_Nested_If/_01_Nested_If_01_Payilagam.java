@@ -1,5 +1,5 @@
 package _J_09_Nested_If;
-public class _01_Nested_If_01 {
+public class _01_Nested_If_01_Payilagam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 int age=25;  

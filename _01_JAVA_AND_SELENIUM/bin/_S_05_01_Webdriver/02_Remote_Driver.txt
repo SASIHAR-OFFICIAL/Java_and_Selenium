@@ -1,0 +1,16 @@
+// Add a reference to the Selenium client jar from
+// http://www.seleniumhq.com
+// import java.net.URL;
+// import org.openqa.selenium.*;
+// import org.openqa.selenium.remote.*;
+URL gridUrl = new URL("http://TestGrid:4444/wd/hub");
+ 
+// You can select another browser by changing the DesiredCapabilities
+Capabilities capabilities = DesiredCapabilities.firefox();
+ 
+// Launches a new Firefox instance on the TestGrid server
+WebDriver driver = new RemoteWebDriver(gridUrl, capabilities);
+ 
+// Closes the remote browser
+ 
+driver.quit();

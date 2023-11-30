@@ -1,6 +1,6 @@
 package _J_08_If_Else_If;
 
-public class IfElseIfExample {
+public class _05_IfElseIfExample_Others {
 	public static void main(String[] args) {  
 	    int marks=85;  
 	      

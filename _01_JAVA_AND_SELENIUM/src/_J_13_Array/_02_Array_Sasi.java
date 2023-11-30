@@ -1,6 +1,6 @@
 package _J_13_Array;
 
-public class IT08_Array {
+public class _02_Array_Sasi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

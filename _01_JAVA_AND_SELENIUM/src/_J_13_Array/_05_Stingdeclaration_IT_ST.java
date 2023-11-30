@@ -1,6 +1,6 @@
 package _J_13_Array;
 
-public class Stingdeclaration {
+public class _05_Stingdeclaration_IT_ST {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

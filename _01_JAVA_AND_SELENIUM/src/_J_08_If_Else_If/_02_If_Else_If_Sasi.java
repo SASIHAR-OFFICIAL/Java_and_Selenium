@@ -1,6 +1,6 @@
 package _J_08_If_Else_If;
 
-public class IT05_If_Else_If {
+public class _02_If_Else_If_Sasi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

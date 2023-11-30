@@ -1,6 +1,6 @@
 package _J_07_If_Else;
 
-public class pali {
+public class _04_pali_Parthasarthy {
 
 
  public static void main(String args[]){  

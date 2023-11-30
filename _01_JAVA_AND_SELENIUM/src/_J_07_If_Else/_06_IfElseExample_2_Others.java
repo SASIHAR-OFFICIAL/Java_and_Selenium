@@ -1,6 +1,6 @@
 package _J_07_If_Else;
 
-public class SwitchExample {  
+public class _06_IfElseExample_2_Others {  
 public static void main(String[] args) {  
     int number=13;  
     if(number%2==0){  

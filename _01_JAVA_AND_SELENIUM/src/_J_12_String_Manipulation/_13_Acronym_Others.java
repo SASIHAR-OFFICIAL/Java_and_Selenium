@@ -1,6 +1,6 @@
 package _J_12_String_Manipulation;
 import java.util.*;
-class New {
+class _13_Acronym_Others {
 static void acronym(String name){
 if(name.length()==0)	
 	return;

@@ -1,6 +1,6 @@
 package _J_07_If_Else;
 
-public class firstclass {
+public class _03_firstclass_IT_ST {
 
 	public static int a=10,b=5,t;
 	public static String str="wins";

@@ -1,6 +1,6 @@
 package _J_12_String_Manipulation;
 
-public class decclass {
+public class _05_decclass_IT_ST {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
