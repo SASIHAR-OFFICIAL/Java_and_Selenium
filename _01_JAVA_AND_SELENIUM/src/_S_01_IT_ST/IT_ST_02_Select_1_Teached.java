@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public IT_ST_02_Select_1_Teached {
+public class IT_ST_02_Select_1_Teached {
 
 	public static void main(String[] args) throws InterruptedException {
 		//System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");

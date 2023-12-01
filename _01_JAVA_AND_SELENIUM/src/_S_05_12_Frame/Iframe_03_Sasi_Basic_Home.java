@@ -1,4 +1,4 @@
-package _04_All_Basic;
+package _S_05_12_Frame;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

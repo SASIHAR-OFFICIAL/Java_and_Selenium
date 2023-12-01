@@ -1,4 +1,4 @@
-package S_03_LAO_ADVANCED;
+package _S_03_LAO_ADVANCED;
 
 import java.awt.AWTException;
 import java.awt.Robot;

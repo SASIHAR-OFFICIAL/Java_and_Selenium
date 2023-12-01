@@ -1,4 +1,4 @@
-package _01_Sasi_Own_Selenium_Package;
+package _S_05_09_Radio_Button;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

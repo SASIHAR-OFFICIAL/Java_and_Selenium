@@ -1,4 +1,4 @@
-package S_05_19_Image;
+package _S_05_19_Image;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class _19_Image_Handling_LAO_Advanced {
+public class Image_Handling_LAO_Advanced {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package S_05_02_Browser;
+package _S_05_02_Browser;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

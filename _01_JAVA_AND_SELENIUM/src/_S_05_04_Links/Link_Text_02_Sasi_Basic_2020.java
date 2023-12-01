@@ -1,4 +1,4 @@
-package S_05_04_Links;
+package _S_05_04_Links;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.server.handler.MaximizeWindow;
+//import org.openqa.selenium.remote.server.handler.MaximizeWindow;
 
 public class Link_Text_02_Sasi_Basic_2020 {
 

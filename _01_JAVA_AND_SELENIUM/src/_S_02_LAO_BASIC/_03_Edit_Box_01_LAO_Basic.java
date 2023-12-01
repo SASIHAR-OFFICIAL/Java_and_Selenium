@@ -1,4 +1,4 @@
-package S_02_LAO_BASIC;
+package _S_02_LAO_BASIC;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

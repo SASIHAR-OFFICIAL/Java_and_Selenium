@@ -1,4 +1,4 @@
-package S_03_LAO_ADVANCED;
+package _S_03_LAO_ADVANCED;
 
 import org.checkerframework.checker.i18nformatter.qual.I18nFormat;
 import org.openqa.selenium.By;

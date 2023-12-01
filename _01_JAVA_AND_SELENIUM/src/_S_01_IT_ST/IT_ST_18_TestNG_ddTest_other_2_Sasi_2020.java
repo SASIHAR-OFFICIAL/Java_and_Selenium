@@ -1,4 +1,4 @@
-package S_01_IT_ST;
+package _S_01_IT_ST;
 
 
 import org.testng.annotations.Test;

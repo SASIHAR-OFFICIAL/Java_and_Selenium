@@ -1,4 +1,4 @@
-package S_05_24_Assert;
+package _S_05_24_Assert;
 
 import static org.junit.jupiter.api.Assertions.*;
 

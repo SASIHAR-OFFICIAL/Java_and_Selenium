@@ -1,4 +1,5 @@
-S_05_11_01_Navigate
+package _S_05_11_01_Navigate;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;

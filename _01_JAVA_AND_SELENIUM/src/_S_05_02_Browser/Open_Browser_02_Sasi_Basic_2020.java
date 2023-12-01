@@ -1,11 +1,11 @@
-package S_05_02_Browser;
+package _S_05_02_Browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.GeckoDriverInfo;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
+//import org.openqa.selenium.opera.OperaDriver;
 
 public class Open_Browser_02_Sasi_Basic_2020 {
 
@@ -25,9 +25,9 @@ public class Open_Browser_02_Sasi_Basic_2020 {
 		WebDriver d=new InternetExplorerDriver();  
 		d.get("https://www.google.co.in");*/
 		
-		System.setProperty("webdriver.opera.driver", "C:\\SELENIUM JARS\\operadriver.exe");
+		/*System.setProperty("webdriver.opera.driver", "C:\\SELENIUM JARS\\operadriver.exe");
 		WebDriver d=new OperaDriver();  
-		d.get("https://www.google.co.in");
+		d.get("https://www.google.co.in");*/
 	}
 
 }

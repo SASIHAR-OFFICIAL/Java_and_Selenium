@@ -1,4 +1,4 @@
-package S_05_12_Frame;
+package _S_05_12_Frame;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

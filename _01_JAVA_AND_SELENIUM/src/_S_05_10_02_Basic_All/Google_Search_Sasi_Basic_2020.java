@@ -1,4 +1,4 @@
-package S_05_10_02_All;
+package _S_05_10_02_Basic_All;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

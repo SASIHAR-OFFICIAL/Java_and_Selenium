@@ -1,4 +1,4 @@
-package S_04_Parthasarathy;
+package _S_04_Parthasarathy;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import jxl.JXLException;
 import jxl.Sheet;
 import jxl.Workbook;
 
-public class Classone_Parthasarthy {
+public class _Classone_Parthasarthy {
 	
 	WebDriver d;
 	@BeforeMethod
@@ -78,7 +78,7 @@ public class Classone_Parthasarthy {
 }
 */
 
-package Testn;
+package _S_04_Parthasarathy;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -94,7 +94,7 @@ import jxl.JXLException;
 import jxl.Sheet;
 import jxl.Workbook;
 
-public class Classone {
+public class _Classone_Parthasarthy {
 	WebDriver d=new FirefoxDriver();
 	
 	@BeforeMethod

@@ -1,4 +1,4 @@
-package S_05_08_Alerts;
+package _S_05_08_Alerts;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

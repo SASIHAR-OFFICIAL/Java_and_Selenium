@@ -1,4 +1,4 @@
-package S_05_06_02_Buttons_Dimenson;
+package _S_05_06_02_Buttons_Dimenson;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;

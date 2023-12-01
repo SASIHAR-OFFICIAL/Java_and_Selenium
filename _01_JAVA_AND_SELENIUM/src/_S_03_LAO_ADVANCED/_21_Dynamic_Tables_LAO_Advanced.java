@@ -1,4 +1,4 @@
-package S_03_LAO_ADVANCED;
+package _S_03_LAO_ADVANCED;
 
 import java.util.ArrayList;
 import java.util.Collections;

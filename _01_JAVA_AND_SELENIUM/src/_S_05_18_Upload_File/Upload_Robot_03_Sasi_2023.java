@@ -1,4 +1,4 @@
-package S_05_18_Upload_File;;
+package _S_05_18_Upload_File;
 
 import java.awt.AWTException;
 import java.awt.Robot;

@@ -1,4 +1,4 @@
-package S_01_IT_ST;
+package _S_01_IT_ST;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +20,7 @@ public class IT_ST_05_Scroll_Up_Down_3_Bringed {
 		//Thread.sleep(20000);
 		d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		1
+		
 				
 		/*JavascriptExecutor js = (JavascriptExecutor) d;  
 		  js.executeScript("window.scrollBy(0,3000)");

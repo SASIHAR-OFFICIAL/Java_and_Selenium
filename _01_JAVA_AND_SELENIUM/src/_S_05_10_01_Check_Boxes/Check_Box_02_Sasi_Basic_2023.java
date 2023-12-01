@@ -1,4 +1,4 @@
-package S_05_10_01_Check_Boxes;
+package _S_05_10_01_Check_Boxes;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

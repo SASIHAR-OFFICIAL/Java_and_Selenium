@@ -1,6 +1,6 @@
-package S_05_24_Assert;
+package _S_05_24_Assert;
 
-public class testng_fghfh {
+public class testng_fghfh_IT_ST {
 
 import static org.junit.jupiter.api.Assertions.*;
 

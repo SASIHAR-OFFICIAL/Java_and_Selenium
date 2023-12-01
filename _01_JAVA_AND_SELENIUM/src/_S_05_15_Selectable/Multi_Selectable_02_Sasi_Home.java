@@ -1,4 +1,4 @@
-package S_05_15_Selectable;
+package _S_05_15_Selectable;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

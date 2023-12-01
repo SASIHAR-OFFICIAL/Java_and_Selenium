@@ -1,4 +1,4 @@
-package S_05_05_Edit;
+package _S_05_05_Text_Box_Edit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

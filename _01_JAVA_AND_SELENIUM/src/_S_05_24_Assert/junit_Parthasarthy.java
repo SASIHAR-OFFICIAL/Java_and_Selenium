@@ -1,10 +1,10 @@
-package S_05_24_Assert;
+package _S_05_24_Assert;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class junit {
+public class junit_Parthasarthy {
     System.setPropery("")
 	public WebDriver d=new
 

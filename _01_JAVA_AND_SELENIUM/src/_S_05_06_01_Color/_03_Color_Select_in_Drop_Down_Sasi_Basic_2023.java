@@ -1,4 +1,4 @@
-package S_05_06_01_Color;
+package _S_05_06_01_Color;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

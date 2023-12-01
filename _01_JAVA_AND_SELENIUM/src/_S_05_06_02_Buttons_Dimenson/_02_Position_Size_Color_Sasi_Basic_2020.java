@@ -1,4 +1,4 @@
-package S_05_06_02_Buttons_Dimenson;
+package _S_05_06_02_Buttons_Dimenson;
 
 import java.awt.Point;
 import org.openqa.selenium.By;
