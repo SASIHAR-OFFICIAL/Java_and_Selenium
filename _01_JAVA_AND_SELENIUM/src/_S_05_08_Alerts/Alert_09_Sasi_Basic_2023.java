@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Alert_10_Sasi_Basic_2023 {
+public class Alert_09_Sasi_Basic_2023 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
