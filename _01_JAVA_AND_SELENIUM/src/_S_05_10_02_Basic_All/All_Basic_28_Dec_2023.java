@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -13,11 +14,13 @@ public class All_Basic_28_Dec_2023 {
 		// TODO Auto-generated method stub
 		System.setProperty("Webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
+//		System.setProperty("Webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
+//		WebDriver d = new ChromeDriver();
 		d.navigate().to("https://rahulshettyacademy.com/AutomationPractice/");
 		Thread.sleep(1000);
 		//Color 1-------------------------------------
 		WebElement Home_Box = d.findElement(By.xpath("/html/body/header/div/a/button"));
-		String Home_Box_Color = Home_Box.getAttribute("background-color");
+		String Home_Box_Color = Home_Box.getCssValue("background-color");
 		System.out.println("Home_Box = "+Home_Box_Color);
 		
 		//Radio Button------------------------------------------------------------------
@@ -42,8 +45,6 @@ public class All_Basic_28_Dec_2023 {
 				DropDown_select.selectByVisibleText("Option3");
 				Thread.sleep(1000);
 				
-
-		
 		//Alert--------------------------------------------------------------------------
 		WebElement Alert_1_Button = d.findElement(By.xpath("//*[@id=\"alertbtn\"]"));
 		Alert_1_Button.click();
@@ -66,12 +67,10 @@ public class All_Basic_28_Dec_2023 {
 		System.out.println("Alert_2_Window_Text = "+Alert_2_Window_Text);
 		Thread.sleep(1000);
 		
-		
-		
-//		//Color 2-------------------------------------
-//		WebElement Open_Window_Box = d.findElement(By.xpath("//*[@id=\"openwindow\"]"));
-//		String Open_Window_Box_Color = Open_Window_Box.getAttribute("background-color");
-//		System.out.println("Open_Window_Box = "+Open_Window_Box_Color);
+		//Color 2-------------------------------------
+		WebElement Open_Window_Box = d.findElement(By.xpath("//*[@id=\"openwindow\"]"));
+		String Open_Window_Box_Color = Open_Window_Box.getCssValue("background-color");
+		System.out.println("Open_Window_Box = "+Open_Window_Box_Color);
 		
 		//size--------------------------------------------
 		
