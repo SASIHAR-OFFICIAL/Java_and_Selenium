@@ -1,10 +1,12 @@
 package _S_05_12_Frame;
 
 import java.awt.Robot;
+import java.util.List;
 
 import javax.swing.Action;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,11 +21,17 @@ WebDriver d = new FirefoxDriver();
 d.manage().window().maximize();
 
 d.navigate().to("https://rahulshettyacademy.com/AutomationPractice/");
+
+List<WebElement> Iframe = d.findElements(By.tagName("iframe"));
+int Iframe_size = Iframe.size();
+System.out.println("Iframe_size = "+Iframe_size);
+
 d.switchTo().frame(0);
 Thread.sleep(5000);
 Actions a = new Actions(d);
 WebElement More = d.findElement(By.xpath("/html/body/div/header/div[3]/div/div/div[2]/nav/div[2]/ul/li[9]/a"));
 a.moveToElement(More).build().perform();
+
 d.quit();
 
 //Actions a=new Actions(driver);
