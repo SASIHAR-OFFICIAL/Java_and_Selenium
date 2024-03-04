@@ -22,6 +22,11 @@ public class Drag_and_Drop_05_14_FEB_2024 {
 		
 		Mouse_Action.clickAndHold(Amount_4).moveToElement(Credit_Amount).release(Credit_Amount).build().perform();
 		Thread.sleep(10000);
+		
+		
+		WebElement Bank_1 = d.findElement(By.xpath("/html/body/section/div/div/main/div/div/div/div/div/div/div[1]/div/ul/li[5]/a"));
+		WebElement Bank_Holder = d.findElement(By.xpath("/html/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/div/div/ol/li"));
+		Mouse_Action.clickAndHold(Bank_1).moveToElement(Bank_Holder).release(Bank_Holder).build().perform();
 		d.close();
 		
 	}
