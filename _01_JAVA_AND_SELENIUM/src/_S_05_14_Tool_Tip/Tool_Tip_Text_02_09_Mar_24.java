@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Tool_Tip_Text_02 {
+public class Tool_Tip_Text_02_09_Mar_24 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
