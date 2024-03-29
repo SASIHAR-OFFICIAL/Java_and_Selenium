@@ -11,7 +11,7 @@ public class _06_Position_Size_Color_Sasi_Basic_Home {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("wedriver.gecko.driver","C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("wedriver.gecko.driver","C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver Firefox = new FirefoxDriver();
 		Firefox.get("https://www.maalaimalar.com/movie-review");
 		Firefox.manage().window().maximize();
