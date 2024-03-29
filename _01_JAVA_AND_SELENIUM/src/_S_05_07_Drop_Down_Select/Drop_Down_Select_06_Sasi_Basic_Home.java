@@ -13,7 +13,7 @@ public class Drop_Down_Select_06_Sasi_Basic_Home {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-System.setProperty("Webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+System.setProperty("Webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 WebDriver fDriver = new FirefoxDriver();
 fDriver.manage().window().maximize();
 fDriver.get("https://www.tamildailycalendar.com/tamil_daily_calendar.php");

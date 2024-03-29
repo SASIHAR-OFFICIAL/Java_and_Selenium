@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class IT_ST_08_Switch_To_Tabs_2_Sasi_2020 {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://executeautomation.com/demosite/index.html?UserName=Rajkumar&Password=coolbuddy9&Login=Login"); 

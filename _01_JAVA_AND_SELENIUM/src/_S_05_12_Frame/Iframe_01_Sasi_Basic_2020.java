@@ -14,11 +14,11 @@ public class Iframe_01_Sasi_Basic_2020 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		/*System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exee");
 		WebDriver d=new FirefoxDriver();
 		d.get("http://www.leafground.com/pages/frame.html");*/
 
-		System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM JARS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("http://www.leafground.com/pages/frame.html");
 		

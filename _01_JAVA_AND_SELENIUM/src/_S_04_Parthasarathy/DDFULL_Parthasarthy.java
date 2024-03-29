@@ -17,7 +17,7 @@ public class DDFULL_Parthasarthy {
 
 	public static void main(String[] args) throws InterruptedException, BiffException, IOException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://www.brm.tremplintech.in/web_pages/login.aspx");
 		d.findElement(By.xpath("html/body/form/div[3]/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]/input")).sendKeys("sylix");

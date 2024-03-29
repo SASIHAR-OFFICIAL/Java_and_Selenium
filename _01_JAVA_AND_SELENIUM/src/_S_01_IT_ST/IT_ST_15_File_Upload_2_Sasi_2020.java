@@ -21,7 +21,7 @@ import org.testng.Assert;
 public class IT_ST_15_File_Upload_2_Sasi_2020 {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-			System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver d=new ChromeDriver();
 			d.manage().window().maximize();
 			String baseUrl = "http://demo.guru99.com/test/upload/";

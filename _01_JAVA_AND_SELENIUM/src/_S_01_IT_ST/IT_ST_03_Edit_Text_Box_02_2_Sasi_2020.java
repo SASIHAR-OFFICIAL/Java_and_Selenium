@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class IT_ST_03_Edit_Text_Box_02_2_Sasi_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://testleaf.herokuapp.com/pages/Edit.html");
 		d.findElement(By.id("email")).sendKeys("testingfor@gmail.com");

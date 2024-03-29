@@ -9,7 +9,7 @@ public class Radio_Button_01_Sasi_Basic_2020 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("http://www.leafground.com/pages/radio.html");
 		

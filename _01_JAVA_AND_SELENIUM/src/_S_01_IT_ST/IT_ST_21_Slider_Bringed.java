@@ -16,7 +16,7 @@ public class IT_ST_21_Slider_Bringed {
 		// TODO Auto-generated method stub
 		        
 		 /* //  File file = new File("D:\\Driver\\IEDriverServer.exe");
-		    System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+		    System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 		    driver.get("http://jqueryui.com/slider/");
 

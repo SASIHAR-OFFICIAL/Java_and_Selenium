@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 public class IT_ST_12_Explicit_Wait_1_Teached {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		//Launch the Application Under Test (AUT)

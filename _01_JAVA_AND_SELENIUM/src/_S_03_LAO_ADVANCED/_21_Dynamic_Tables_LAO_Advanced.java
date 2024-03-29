@@ -14,11 +14,11 @@ public class _21_Dynamic_Tables_LAO_Advanced {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		/*System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\WebDriver\geckodriver\geckodriver.exe");
 		WebDriver d=new FirefoxDriver();
 		d.get("http://www.leafground.com/pages/table.html");*/
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM JARS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://www.leafground.com/pages/table.html");

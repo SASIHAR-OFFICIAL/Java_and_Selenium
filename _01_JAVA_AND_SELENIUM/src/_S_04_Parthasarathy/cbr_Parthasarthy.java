@@ -8,7 +8,7 @@ public class cbr_Parthasarthy {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selet\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://www.brm.tremplintech.in/web_pages/login.aspx");
 		d.findElement(By.id("txt_unam")).sendKeys("sylix");

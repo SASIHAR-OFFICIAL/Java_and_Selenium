@@ -27,7 +27,7 @@ public class IT_ST_13_Assertion_2_Sasi_2020 {
 
 			//Assert.assertEquals(expected,actual);
 			//System.out.println("Both expected and Actual are same");
-			System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver d=new ChromeDriver();
 			d.manage().window().maximize();
 			d.get("https://www.softwaretestingmaterial.com");

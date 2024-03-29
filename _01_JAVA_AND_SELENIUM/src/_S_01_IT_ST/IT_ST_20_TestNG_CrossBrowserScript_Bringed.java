@@ -41,7 +41,7 @@ public class IT_ST_20_TestNG_CrossBrowserScript_Bringed {
 		//Check if parameter passed as 'Edge'
 				else if(browser.equalsIgnoreCase("ie")){
 					//set path to Edge.exe
-					System.setProperty("webdriver.ie.driver","C:\\SeleniumTraining\\cross browser\\IEDriverServer.exe");
+					System.setProperty("webdriver.ie.driver","C:\\WebDriver\\IEDriver\\IEDriverServer.exe");
 					//create Edge instance
 					driver = new InternetExplorerDriver();
 				}

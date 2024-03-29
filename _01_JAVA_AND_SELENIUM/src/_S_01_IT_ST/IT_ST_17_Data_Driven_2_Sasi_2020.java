@@ -33,7 +33,7 @@ public class IT_ST_17_Data_Driven_2_Sasi_2020 {
 
 	public static void main(String[] args) throws BiffException, IOException, InterruptedException   {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exee");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.navigate().to("http://demo.automationtesting.in/Register.html");

@@ -9,7 +9,7 @@ public class _22_Calendar_Sasi_LAO_Advanced {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM JARS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://www.leafground.com/pages/Calendar.html");

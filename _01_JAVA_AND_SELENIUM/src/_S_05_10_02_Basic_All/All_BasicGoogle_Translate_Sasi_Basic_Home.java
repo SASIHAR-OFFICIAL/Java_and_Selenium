@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class All_BasicGoogle_Translate_Sasi_Basic_Home {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 WebDriver F = new FirefoxDriver();
 F.get("https://translate.google.co.in/?hl=en&tab=wT&authuser=0");
 

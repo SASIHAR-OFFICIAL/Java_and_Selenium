@@ -11,7 +11,7 @@ public class Drop_Down_Select_01_Sasi_Basic_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://www.leafground.com/pages/Dropdown.html");
 		

@@ -14,7 +14,7 @@ public class IT_ST_05_Scroll_Up_Down_3_Bringed {
 
 	public static void main(String[] args) throws InterruptedException  {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://www.amazon.in");
 		//Thread.sleep(20000);

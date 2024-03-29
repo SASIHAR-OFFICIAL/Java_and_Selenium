@@ -13,7 +13,7 @@ public class Drop_Down_Select_02_Sasi_Basic_2020 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("http://www.leafground.com/home.html");
 		Thread.sleep(3000);

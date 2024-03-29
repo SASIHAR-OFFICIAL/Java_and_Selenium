@@ -9,7 +9,7 @@ public class _14_Tool_Tip_Text_LAO_Advanced {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d=new FirefoxDriver();
 		d.get("http://www.leafground.com/pages/tooltip.html");
 		WebElement name = d.findElement(By.id("age"));

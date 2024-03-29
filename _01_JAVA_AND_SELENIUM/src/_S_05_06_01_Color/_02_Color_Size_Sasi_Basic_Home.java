@@ -11,7 +11,7 @@ public class _02_Color_Size_Sasi_Basic_Home {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 WebDriver fDriver = new FirefoxDriver();
 fDriver.manage().window().maximize();
 fDriver.get("https://www.prokerala.com/general/calendar/tamilcalendar.php");

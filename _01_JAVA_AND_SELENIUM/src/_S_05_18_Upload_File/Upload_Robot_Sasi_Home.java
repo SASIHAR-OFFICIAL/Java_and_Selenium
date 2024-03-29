@@ -20,7 +20,7 @@ public class Upload_Robot_Sasi_Home {
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		// TODO Auto-generated method stub
-		System.setProperty("WebDriver.Gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("WebDriver.Gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver D = new FirefoxDriver();
 		D.get("https://www.foundit.in/");
 

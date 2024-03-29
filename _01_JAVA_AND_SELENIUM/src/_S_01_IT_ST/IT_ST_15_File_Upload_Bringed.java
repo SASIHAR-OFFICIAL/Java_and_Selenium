@@ -13,7 +13,7 @@ public class IT_ST_15_File_Upload_Bringed {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		/*String baseUrl = "http://demo.guru99.com/test/upload/";
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\WebDriver\chromedriver\chromedriver.exe");
 		WebDriver driver  = new ChromeDriver();
         driver.get(baseUrl);
         WebElement uploadElement = driver.findElement(By.id("uploadfile_0"));
@@ -29,7 +29,7 @@ public class IT_ST_15_File_Upload_Bringed {
        
 		
 		// Horizontal Scroll
-		/*System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "C:\WebDriver\chromedriver\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
@@ -47,7 +47,7 @@ public class IT_ST_15_File_Upload_Bringed {
         
         Thread.sleep(3000);*/
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "CC:\\WebDriver\\chromedriver\\chromedriver.exee");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

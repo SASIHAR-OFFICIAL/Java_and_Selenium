@@ -8,7 +8,7 @@ public class HOME_04_Own_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 FirefoxDriver driver = new FirefoxDriver();
 driver.navigate().to("https://www.leafground.com/calendar.xhtml");
 

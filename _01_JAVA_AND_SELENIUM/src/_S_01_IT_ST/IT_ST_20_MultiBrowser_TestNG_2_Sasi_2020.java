@@ -30,20 +30,20 @@ public class IT_ST_20_MultiBrowser_TestNG_2_Sasi_2020 {
 		//Check if parameter passed from TestNG is 'firefox'
 		if(browser.equalsIgnoreCase("firefox")){
 		//create firefox instance
-			System.setProperty("webdriver.firefox.marionette", "C:\\selenium jars\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		//Check if parameter passed as 'chrome'
 		else if(browser.equalsIgnoreCase("chrome")){
 			//set path to chromedriver.exe
-			System.setProperty("webdriver.chrome.driver","C:\\selenium jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			//create chrome instance
 			driver = new ChromeDriver();
 		}
 		//Check if parameter passed as 'Edge'
 				else if(browser.equalsIgnoreCase("ie")){
 					//set path to Edge.exe
-					System.setProperty("webdriver.ie.driver","C:\\selenium jars\\IEDriverServer.exe");
+					System.setProperty("webdriver.ie.driver","C:\\WebDriver\\IEDriver\\IEDriverServer.exe");
 					//create Edge instance
 					driver = new InternetExplorerDriver();
 				}

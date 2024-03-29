@@ -9,7 +9,7 @@ public class Open_Browser_10_Enter_Data_Sasi_Basic_Home {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver Firefox =new FirefoxDriver();
 		Firefox.get("https://www.google.com/");
 		Firefox.findElement(By.name("q")).sendKeys("idm"+Keys.ENTER);

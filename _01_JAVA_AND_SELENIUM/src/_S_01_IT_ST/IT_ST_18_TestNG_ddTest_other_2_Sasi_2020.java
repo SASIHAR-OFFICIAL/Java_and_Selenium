@@ -22,7 +22,7 @@ public class IT_ST_18_TestNG_ddTest_other_2_Sasi_2020 {
 	WebDriver d;
 	 @BeforeTest
 	  public void beforeTest() throws InterruptedException {
-		 System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			d=new ChromeDriver();
 			d.get("http://demo.automationtesting.in/Register.html");
 			d.manage().window().maximize();

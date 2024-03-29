@@ -9,7 +9,7 @@ public class LinkText_Parthasarthy {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		String baseUrl = "http://demo.guru99.com/test/link.html";					
-		System.setProperty("webdriver.chrome.driver","C:\\Selenium Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 							
         WebDriver driver = new ChromeDriver();					
         		

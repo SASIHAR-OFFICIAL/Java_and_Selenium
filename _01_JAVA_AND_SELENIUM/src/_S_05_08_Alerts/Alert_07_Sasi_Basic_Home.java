@@ -12,7 +12,7 @@ public class Alert_07_Sasi_Basic_Home {
 		
 		//-ONLY ALERT----ONLY ALERT----ONLY ALERT-ONLY ALERT----ONLY ALERT----ONLY ALERT----ONLY ALERT
 				
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F = new FirefoxDriver();
 		F.get("https://www.leafground.com/alert.xhtml");	
 

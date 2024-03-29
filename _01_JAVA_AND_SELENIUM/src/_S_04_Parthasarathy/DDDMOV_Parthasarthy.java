@@ -18,7 +18,7 @@ public class DDDMOV_Parthasarthy {
 
 	public static void main(String[] args) throws BiffException, IOException, InterruptedException   {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://www.brm.tremplintech.in/web_pages/login.aspx");
 		

@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class IT_ST_09_Right_Double_Context_Clicks_2_Sasi_2020 {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");

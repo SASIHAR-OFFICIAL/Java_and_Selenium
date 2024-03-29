@@ -13,7 +13,7 @@ public class IT_ST_13_Assertion_3_Bringed {
 		Assert.assertEquals(expected,actual);
 		System.out.println("Both expected and Actual are same");*/
 				WebDriver d;
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		d=new ChromeDriver();
 		d.get("https://www.softwaretestingmaterial.com");
 		d.manage().window().maximize();

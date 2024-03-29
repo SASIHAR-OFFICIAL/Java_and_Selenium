@@ -14,7 +14,7 @@ public class Upload_Robot_01_Sasi_Home {
 
 	public static void main(String[] args) throws AWTException, InterruptedException {
 		// TODO Auto-generated method stub
-System.setProperty("WebDriver.Gecko.driver", "C:\\\\SELENIUM WEBDRIVER\\\\geckodriver-v0.32.2-win64\\\\geckodriver.exe");
+System.setProperty("WebDriver.Gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 FirefoxDriver firefoxDriver = new FirefoxDriver();
 firefoxDriver.get("https://www.leafground.com/file.xhtml");
 

@@ -13,7 +13,7 @@ public class dynamic_Parthasarthy {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/*System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "C:\WebDriver\chromedriver\chromedriver.exee");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
 		new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='input_fromto checkSpecialCharacters ui-autocomplete-input' and @id='hp-widget__sfrom']"))).click();
@@ -22,7 +22,7 @@ public class dynamic_Parthasarthy {
 		    if(element.getText().contains("Mumbai"));
 		        element.click();*/
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver driver  = new ChromeDriver();
         driver.manage().window().maximize();
         WebDriverWait wait = new WebDriverWait(driver, 10);

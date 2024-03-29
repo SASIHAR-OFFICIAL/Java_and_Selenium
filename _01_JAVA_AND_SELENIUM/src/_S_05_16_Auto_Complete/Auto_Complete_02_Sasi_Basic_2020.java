@@ -11,15 +11,16 @@ public class Auto_Complete_02_Sasi_Basic_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d=new FirefoxDriver();
 		d.get("https://www.google.co.in/");
-		WebElement google = d.findElement(By.xpath("/html/body/div/div[2]/form/div[2]/div[1]/div[1]/div/div[2]/input"));
+		WebElement google = d.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
 		google.sendKeys("c");
 		Thread.sleep(3000);
-		List<WebElement> optionsList=d.findElements(By.xpath("/html/body/div/div[2]/form/div[2]/div[1]/div[2]/li"));
+		List<WebElement> optionsList=d.findElements(By.xpath("//*[@id=\"APjFqb\"]"));
 		for (WebElement otionsInList : optionsList) {
 			if(otionsInList.getText().equals("cricket")) {
+				Thread.sleep(3000);
 				otionsInList.click();
 			}
 	

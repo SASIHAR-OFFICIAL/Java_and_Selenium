@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Alert_08_Sasi_Basic_2023 {
 	public static void main(String[] args) throws NoAlertPresentException,InterruptedException  {									
-		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 	
         

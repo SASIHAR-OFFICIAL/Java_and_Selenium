@@ -27,7 +27,7 @@ public class IT_ST_18_TestNG_DataDriven_3_Sasi_2020 {
 
 	public static void main(String[] args) throws BiffException, IOException, InterruptedException   {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.navigate().to("http://demo.automationtesting.in/Register.html");
 		FileInputStream f=new FileInputStream("C:\\Users\\JAYASREE SASIHAR\\Desktop\\datadriven\\dd.xls");

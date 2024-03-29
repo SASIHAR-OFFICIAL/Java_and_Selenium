@@ -10,7 +10,7 @@ public class _02_Position_Size_Color_Sasi_Basic_2020 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM JARS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d =new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://www.leafground.com/pages/Button.html");

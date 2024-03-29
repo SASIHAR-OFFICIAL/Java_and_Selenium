@@ -38,7 +38,7 @@ public WebDriver driver;
 	 
 	   // Here I am setting up the path for my IEDriver
 	 
-	   System.setProperty("webdriver.ie.driver", "C:\\selenium jars\\IEDriverServer.exe");
+	   System.setProperty("webdriver.ie.driver", "C:\\WebDriver\\IEDriver\\IEDriverServer.exe");
 	 
 	   driver = new InternetExplorerDriver();
 	 
@@ -46,7 +46,7 @@ public WebDriver driver;
 			 
 		   // Here I am setting up the path for my Chrome
 		 
-		   System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		 
 		   driver = new ChromeDriver();
 		 

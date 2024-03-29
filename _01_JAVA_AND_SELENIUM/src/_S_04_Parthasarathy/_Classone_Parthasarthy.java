@@ -20,7 +20,7 @@ public class _Classone_Parthasarthy {
 	WebDriver d;
 	@BeforeMethod
 	public void open() {
-		System.setProperty("webdriver.chrome.driver","D:\\c files\\jars\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/login.aspx");
 		d.manage().window().maximize();

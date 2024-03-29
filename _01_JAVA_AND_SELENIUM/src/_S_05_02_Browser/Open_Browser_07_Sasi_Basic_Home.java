@@ -10,12 +10,12 @@ public class Open_Browser_07_Sasi_Basic_Home {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/*System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM WEBDRIVER\\chromedriver_win32\\chromedriver.exe");
+/*System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("http:\\www.google.com");*/
 
 
-System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 WebDriver driverF = new FirefoxDriver();
 driverF.get("http:\\www.google.com");
 

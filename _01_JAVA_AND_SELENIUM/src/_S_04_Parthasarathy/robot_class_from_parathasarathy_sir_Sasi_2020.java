@@ -12,7 +12,7 @@ public class robot_class_from_parathasarathy_sir_Sasi_2020 {
 
 	public static void main(String[] args) throws AWTException, InterruptedException{
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.edureka.co/");
 		d.findElement(By.linkText("Courses")).click();

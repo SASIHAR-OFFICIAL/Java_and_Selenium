@@ -28,7 +28,7 @@ public class IT_ST_20_TestNG_MultiBrowser_1_Teached {
 	 
 	  if(browser.equalsIgnoreCase("firefox")) {
 		  
-	System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
+	System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 			 
 	 
 	   driver = new FirefoxDriver();
@@ -39,7 +39,7 @@ public class IT_ST_20_TestNG_MultiBrowser_1_Teached {
 	 
 	   // Here I am setting up the path for my IEDriver
 	 
-	   System.setProperty("webdriver.ie.driver", "C:\\selenium jars\\IEDriverServer.exe");
+	   System.setProperty("webdriver.ie.driver", "C:\\WebDriver\\IEDriver\\IEDriverServer.exe");
 	 
 	   driver = new InternetExplorerDriver();
 	 
@@ -47,7 +47,7 @@ public class IT_ST_20_TestNG_MultiBrowser_1_Teached {
 			 
 		   // Here I am setting up the path for my Chrome
 		 
-		   System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		 
 		   driver = new ChromeDriver();
 		 

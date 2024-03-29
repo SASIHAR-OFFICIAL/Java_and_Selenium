@@ -12,7 +12,7 @@ public class Drop_Down_Select_07_Position_Size_Color_Sasi_Basic_Home {
 
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F_Driver = new FirefoxDriver();
 		F_Driver.manage().window().maximize();
 		F_Driver.get("https://horoscope.hosuronline.com/horoscope.php");

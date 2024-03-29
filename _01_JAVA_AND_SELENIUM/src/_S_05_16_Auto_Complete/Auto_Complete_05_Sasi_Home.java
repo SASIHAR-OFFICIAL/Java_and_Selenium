@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Auto_Complete_05_Sasi_Home {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://demo.automationtesting.in/AutoComplete.html");
 

@@ -8,7 +8,7 @@ import com.gargoylesoftware.htmlunit.javascript.host.URL;
 public class Amazon_Parthasarthy  {
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d= new ChromeDriver();
 		
 		d.navigate().to("https://www.amazon.in");

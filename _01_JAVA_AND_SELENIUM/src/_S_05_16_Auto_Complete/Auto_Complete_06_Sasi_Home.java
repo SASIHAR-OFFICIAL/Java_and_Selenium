@@ -11,7 +11,7 @@ public class Auto_Complete_06_Sasi_Home {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver D = new FirefoxDriver();
 		D.navigate().to("https://www.foundit.in/");
 		Thread.sleep(3000);

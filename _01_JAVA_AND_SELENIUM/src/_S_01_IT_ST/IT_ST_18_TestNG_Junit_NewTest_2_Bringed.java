@@ -177,7 +177,7 @@ public class IT_ST_18_TestNG_Junit_NewTest_2_Bringed {
 	}
 	@BeforeClass
 	public void beforeClass() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
 	}

@@ -14,7 +14,7 @@ class IT_ST_18_TestNG_Junit_jclass_Bringed {
 	WebDriver d;
 	@Before
 	public void open() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\java\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/login.aspx");
 		d.manage().window().maximize();

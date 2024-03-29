@@ -11,7 +11,7 @@ public class Assertion_Parthasarthy {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		 WebDriver driver= new ChromeDriver();
 		 driver.get("https://www.softwaretestingmaterial.com");
 		 Thread.sleep(20000);

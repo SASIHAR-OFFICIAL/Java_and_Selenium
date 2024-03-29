@@ -16,7 +16,7 @@ public class five_Parthasarthy {
 
 	
 
-	System.setProperty("webdriver.chrome.driver", "C:\\jars\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver d=new ChromeDriver();
 			d.get("https://admission.upes.ac.in/applicationformstep1.aspx");
 			d.manage().window().maximize();

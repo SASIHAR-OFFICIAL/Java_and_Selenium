@@ -26,7 +26,7 @@ public class tttng_Parthasarthy {
 	@BeforeClass
 	public void openbrowser()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/login.aspx");
 		d.manage().window().maximize();

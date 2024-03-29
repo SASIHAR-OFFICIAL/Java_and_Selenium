@@ -11,7 +11,7 @@ public class IT_ST_14_Drag_and_Drop_2_Bringed {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");		
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://jqueryui.com/droppable/");
 		driver.switchTo().frame(driver.findElement(By.className("demo-frame")));

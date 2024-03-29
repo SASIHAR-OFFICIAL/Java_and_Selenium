@@ -15,7 +15,7 @@ public class Open_Browser_01_Sasi_Basic_2020 {
 		WebDriver d = new ChromeDriver();
 		d.get("https:\\www.google.co.in");
 		
-		/*System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM JARS\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\WebDriver\geckodriver\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("https:\\www.google.co.in");*/
 		

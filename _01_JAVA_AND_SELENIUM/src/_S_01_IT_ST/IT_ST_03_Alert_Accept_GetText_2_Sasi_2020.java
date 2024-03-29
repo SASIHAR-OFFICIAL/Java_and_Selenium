@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 public class IT_ST_03_Alert_Accept_GetText_2_Sasi_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
 		d.manage().window().maximize();

@@ -8,7 +8,7 @@ public class usercreation_Parthasarthy {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exee");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.flipkart.com/pens-stationery/office-supplies/diaries/pr?affid=dealsbigd&sid=dgv,tkw,mwh&affExtParam1=email_shoot_pan_india&affExtParam2=email_database_7");
 		Thread.sleep(40000);

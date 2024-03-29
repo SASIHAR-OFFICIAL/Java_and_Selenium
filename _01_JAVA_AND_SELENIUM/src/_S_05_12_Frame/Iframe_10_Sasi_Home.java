@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Iframe_10_Sasi_Home {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.globalsqa.com/demo-site/auto-complete/#Categories");
 		Thread.sleep(3000);

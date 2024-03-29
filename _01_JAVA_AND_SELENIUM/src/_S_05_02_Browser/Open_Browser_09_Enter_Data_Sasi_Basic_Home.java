@@ -10,7 +10,7 @@ public class Open_Browser_09_Enter_Data_Sasi_Basic_Home {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.gecko.driver","C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver Firefox = new FirefoxDriver();
 		Firefox.get("https://www.bing.com/");
 		Firefox.findElement(By.id("sb_form_q")).sendKeys("kovai"+Keys.ENTER);

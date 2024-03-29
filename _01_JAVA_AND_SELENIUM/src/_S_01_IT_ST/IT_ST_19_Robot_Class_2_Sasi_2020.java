@@ -23,7 +23,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class IT_ST_19_Robot_Class_2_Sasi_2020 {
 	public static void main(String[] args) throws AWTException, InterruptedException{
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("https://www.edureka.co/");

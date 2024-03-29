@@ -8,7 +8,7 @@ public class IT_ST_22_Get_URL_Tilte_Bringed {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 String baseUrl = "http://demo.guru99.com/test/link.html";					
-		 System.setProperty("webdriver.chrome.driver", "C:\\SeleniumTraining\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver driver  = new ChromeDriver();				
 	        		
 	        driver.get(baseUrl);					

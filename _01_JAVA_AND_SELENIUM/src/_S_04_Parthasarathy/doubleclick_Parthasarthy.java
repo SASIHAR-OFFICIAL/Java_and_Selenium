@@ -17,7 +17,7 @@ public class doubleclick_Parthasarthy {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exee");
 		 driver= new ChromeDriver();
 /*
 	//Launch the Application Under Test (AUT)

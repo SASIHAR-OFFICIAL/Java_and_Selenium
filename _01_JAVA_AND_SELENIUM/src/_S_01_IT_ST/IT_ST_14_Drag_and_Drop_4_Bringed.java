@@ -11,7 +11,7 @@ public class IT_ST_14_Drag_and_Drop_4_Bringed {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d;
  d= new ChromeDriver();	
 		 

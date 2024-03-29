@@ -22,7 +22,7 @@ public class IT_ST_04_mouseover_Bringed {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		/*d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
 				 Thread.sleep(2000);

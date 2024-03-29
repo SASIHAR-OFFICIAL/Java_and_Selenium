@@ -17,7 +17,7 @@ public class IT_ST_18_TestNG_Junit_juc_Bringed {
 	WebDriver d;
 	@Before
 	public void start() {
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		 d=new ChromeDriver();
 		d.get("http://www.brm.tremplintech.in/web_pages/login.aspx");
 	}
@@ -53,7 +53,7 @@ public class IT_ST_18_TestNG_Junit_juc_Bringed {
 
 
 }
-/*System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+/*System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 WebDriver d=new ChromeDriver();
 d.get("http://www.brm.tremplintech.in/web_pages/login.aspx");
 

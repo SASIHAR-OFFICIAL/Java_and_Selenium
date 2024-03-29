@@ -16,7 +16,7 @@ public class IT_ST_10_Doube_Click_Bringed {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumTraining\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		 driver= new ChromeDriver();
 /*
 	//Launch the Application Under Test (AUT)

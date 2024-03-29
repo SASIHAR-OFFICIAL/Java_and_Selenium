@@ -16,7 +16,7 @@ public class Slider_Parthasarthy {
 		// TODO Auto-generated method stub
 		        
 		 /* //  File file = new File("D:\\Driver\\IEDriverServer.exe");
-		    System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+		    System.setProperty("webdriver.chrome.driver", "C:\WebDriver\\chromedriver\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 		    driver.get("http://jqueryui.com/slider/");
 
@@ -24,7 +24,7 @@ public class Slider_Parthasarthy {
 		    Actions move = new Actions(driver);
 		    Action action = (Action) move.dragAndDropBy(slider, 30, 0).build();
 		    ((Actions) action).perform();*/
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 			    driver.get("http://jqueryui.com/slider/");
 		    driver.switchTo().frame(0);

@@ -9,7 +9,7 @@ public class IT_ST_11_Implicitly_Wait_Bringed {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exee");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.amazon.com/");
 		d.manage().window().maximize();

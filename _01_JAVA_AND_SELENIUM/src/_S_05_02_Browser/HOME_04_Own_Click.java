@@ -9,7 +9,7 @@ public class HOME_04_Own_Click {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("WebDriver.Gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("WebDriver.Gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver D = new FirefoxDriver();
 		D.get("https://rettaikili.in/product/rettaikili-rajabogam-ponni/");
 		Thread.sleep(10000);

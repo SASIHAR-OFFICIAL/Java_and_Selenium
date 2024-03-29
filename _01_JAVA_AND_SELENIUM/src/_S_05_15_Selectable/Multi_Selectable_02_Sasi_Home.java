@@ -10,7 +10,7 @@ public class Multi_Selectable_02_Sasi_Home {
 
 	public static void main(String[] args) throws InterruptedException {		
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\SELENIUM WEBDRIVER\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver FDriver = new FirefoxDriver();
 		FDriver.manage().window().maximize();
 		FDriver.get("https://www.leafground.com/checkbox.xhtml");
