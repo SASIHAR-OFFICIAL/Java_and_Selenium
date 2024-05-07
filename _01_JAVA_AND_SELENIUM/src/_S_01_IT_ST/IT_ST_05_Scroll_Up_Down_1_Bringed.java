@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,8 +13,8 @@ public class IT_ST_05_Scroll_Up_Down_1_Bringed {
 
 	public static void main(String[] args) throws InterruptedException  {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
-		WebDriver d=new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		FirefoxDriver d = new FirefoxDriver();
 		d.get("http://www.amazon.in");
 		//Thread.sleep(20000);
 		d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

@@ -2,7 +2,7 @@ package _S_05_23_2_Advanced_All;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.v113.network.model.DataReceived;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.File;
 import java.util.concurrent.ThreadFactory;
@@ -24,7 +24,8 @@ public class _ERP_01_Sasi_2023 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+
+System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 FirefoxDriver driver = new FirefoxDriver();
 driver.manage().window().maximize();
 driver.navigate().to("http://172.16.100.36/impres/StaffLogin/Default.aspx");
