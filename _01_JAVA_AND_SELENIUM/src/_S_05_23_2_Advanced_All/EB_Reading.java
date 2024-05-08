@@ -40,7 +40,7 @@ jse.executeScript("window.scrollBy(0,3250)", "");
 Thread.sleep(4000);
 jse.executeScript("window.scrollBy(0,-750)", "");
 Thread.sleep(4000);
-d.close();
+//d.close();
 
 	}
 
