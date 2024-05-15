@@ -11,7 +11,7 @@ public class Auto_Complete_02_Sasi_Basic_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d=new FirefoxDriver();
 		d.get("https://www.google.co.in/");
 		WebElement google = d.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
