@@ -1,4 +1,4 @@
-package _J_03_01_For_Loop;
+package _J_06_If_Conditions;
 
 public class _05_forlOOP_Others {
 

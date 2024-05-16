@@ -1,11 +1,11 @@
 package _J_01_Simple_Programs;
 
-public class Calculator {
+public class _10_Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Calculator casio = new Calculator();
+		_10_Calculator casio = new _10_Calculator();
 		casio.add(); 							// Method Calling ***
 
 	}

@@ -1,10 +1,10 @@
 package _J_01_Simple_Programs;
 
-public class Add {
+public class _09_Add {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Add Addition = new Add();
+		_09_Add Addition = new _09_Add();
 		Addition.add();
 		
 	}

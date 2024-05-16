@@ -1,4 +1,4 @@
-package _J_03_01_For_Loop;
+package _J_05_Do_While_Loop;
 
 public class _06_forloop_Parthasarthy {
 

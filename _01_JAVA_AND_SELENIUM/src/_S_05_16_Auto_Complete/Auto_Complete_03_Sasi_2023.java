@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Auto_Complete_03_Sasi_2023 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F = new FirefoxDriver();
@@ -19,7 +19,7 @@ public class Auto_Complete_03_Sasi_2023 {
 		F.switchTo().frame(Frame_X_Path);
 		//WebElement Frame_X_Path_1 = F.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div/div/div[2]/div/div/div[1]/p/iframe"));
 		//F.switchTo().frame(5);		
-		
+		Thread.sleep(3000);
 	WebElement Box = F.findElement(By.xpath("//*[@id=\"search\"]"));
 	Box.sendKeys("a");
 
