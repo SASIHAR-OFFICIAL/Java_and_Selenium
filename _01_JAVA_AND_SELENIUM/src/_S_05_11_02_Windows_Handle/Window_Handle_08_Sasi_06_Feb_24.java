@@ -16,9 +16,12 @@ public class Window_Handle_08_Sasi_06_Feb_24 {
 		d.navigate().to("https://demoqa.com/browser-windows");
 
 		String New_Tab_window = d.getWindowHandle();
+		
 		WebElement New_Tab = d.findElement(By.id("tabButton"));
 		New_Tab.click();
+		
 		Set<String> windowHandles_1 = d.getWindowHandles();
+		
 		for (String All_window_1 : windowHandles_1) {
 			d.switchTo().window(All_window_1);
 		}
