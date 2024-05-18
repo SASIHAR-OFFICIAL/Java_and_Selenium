@@ -15,7 +15,7 @@ public class _03_New_Webdriver {
 		WebDriverManager.firefoxdriver().setup();
 		FirefoxDriver d = new FirefoxDriver();
 		d.manage().window().maximize();
-		d.navigate().to("https://www.google.com/webhp");
+		//d.navigate().to("https://www.google.com/webhp");
 		String First_window = d.getWindowHandle();
 		
 
@@ -23,12 +23,14 @@ public class _03_New_Webdriver {
 
 	
 		String ExtensionID = d.installExtension(Path_for_Adblock);
-		//Thread.sleep(3000);
-		Set<String> Second_Window = d.getWindowHandles();
-		for (String All_window : Second_Window) {
-			d.switchTo().window(First_window);
-		}
-		//d.switchTo().window(First_window);
-		//d.uninstallExtension(ExtensionID);
+		Thread.sleep(3000);
+		d.close();
+//		Set<String> Second_Window = d.getWindowHandles();
+//		for (String All_window : Second_Window) {
+//			
+//			//d.switchTo().window(First_window);
+//		}
+//		d.switchTo().window(First_window);
+//		//d.uninstallExtension(ExtensionID);
 	}
 }
