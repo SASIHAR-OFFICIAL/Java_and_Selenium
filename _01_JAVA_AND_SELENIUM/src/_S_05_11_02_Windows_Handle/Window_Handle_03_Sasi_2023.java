@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Window_Handle_03_Sasi_2023 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F =new FirefoxDriver();
 		F.manage().window().maximize();
 		F.get("https://demoqa.com/browser-windows");
@@ -22,8 +22,8 @@ public class Window_Handle_03_Sasi_2023 {
 		Set<String> parent_and_Childs =  F.getWindowHandles();
 		for (String Child_Windows1 : parent_and_Childs) {
 			F.switchTo().window(Child_Windows1);
-			
-							}
+
+		}
 		Thread.sleep(1500);
 		F.close();
 		F.switchTo().window(Parent_window);
@@ -38,16 +38,16 @@ public class Window_Handle_03_Sasi_2023 {
 		F.close();
 		F.switchTo().window(Parent_window);
 		Thread.sleep(1500);
-		
+
 		//New Window Message-------------------------------------------
 		WebElement New_Window_Message = F.findElement(By.xpath("//*[@id=\"messageWindowButton\"]"));
 		New_Window_Message.click();
 		Set<String> parent_and_Childs3 = F.getWindowHandles();
 		for (String Child3 : parent_and_Childs3) {
 			F.switchTo().window(Child3);
-					}
+		}
 		Thread.sleep(1500);
 		F.close();
-}
+	}
 }
 

@@ -15,22 +15,27 @@ public class _03_New_Webdriver {
 		WebDriverManager.firefoxdriver().setup();
 		FirefoxDriver d = new FirefoxDriver();
 		d.manage().window().maximize();
-		//d.navigate().to("https://www.google.com/webhp");
+		// OPEN GOOGLE IN FIRST WINDOW
+		d.navigate().to("https://www.google.com/webhp");
 		String First_window = d.getWindowHandle();
-		
+
+		//INSTALL ADBLOCK PLUS
 
 		Path Path_for_Adblock = Paths.get("C:\\WebDriver\\geckodriver\\adblock_plus-4.0.xpi");
-
-	
 		String ExtensionID = d.installExtension(Path_for_Adblock);
-		Thread.sleep(3000);
-		d.close();
-//		Set<String> Second_Window = d.getWindowHandles();
-//		for (String All_window : Second_Window) {
-//			
-//			//d.switchTo().window(First_window);
-//		}
-//		d.switchTo().window(First_window);
-//		//d.uninstallExtension(ExtensionID);
+		Thread.sleep(5000);
+
+		// CLOSE SECOND WINDOW
+		Set<String> Second_Window = d.getWindowHandles();
+		for (String All_window : Second_Window) {
+			d.switchTo().window(First_window);
+			//if (!All_window.equals(First_window)) {
+				//d.close();
+		}
+			
+		//d.uninstallExtension(ExtensionID);
+	
+
+		
 	}
 }

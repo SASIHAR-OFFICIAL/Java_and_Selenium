@@ -11,7 +11,7 @@ public class Window_Handle_01_Sasi_Basic_2020 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("webdriver.Gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("http://www.leafground.com/pages/Window.html");
 		String mainWindow = d.getWindowHandle();  // To assign first window opened by program
