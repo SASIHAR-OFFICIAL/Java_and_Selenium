@@ -29,13 +29,13 @@ public class _03_New_Webdriver {
 		Set<String> Second_Window = d.getWindowHandles();
 		for (String All_window : Second_Window) {
 			d.switchTo().window(First_window);
-			//if (!All_window.equals(First_window)) {
-				//d.close();
+			if (!All_window.equals(Second_Window)) {
+				d.close();
 		}
 			
 		//d.uninstallExtension(ExtensionID);
 	
-
+		}
 		
 	}
 }
