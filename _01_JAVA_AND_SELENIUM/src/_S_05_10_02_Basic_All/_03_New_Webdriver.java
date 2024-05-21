@@ -16,7 +16,7 @@ public class _03_New_Webdriver {
 		FirefoxDriver d = new FirefoxDriver();
 		d.manage().window().maximize();
 		// OPEN GOOGLE IN FIRST WINDOW
-		d.navigate().to("https://www.google.com/webhp");
+		//d.navigate().to("https://www.google.com/webhp");
 		String First_window = d.getWindowHandle();
 
 		//INSTALL ADBLOCK PLUS
@@ -27,15 +27,12 @@ public class _03_New_Webdriver {
 
 		// CLOSE SECOND WINDOW
 		Set<String> Second_Window = d.getWindowHandles();
-		for (String All_window : Second_Window) {
-			d.switchTo().window(First_window);
-			if (!All_window.equals(Second_Window)) {
+		for (String All_2_window : Second_Window) {
+			d.switchTo().window(All_2_window);
+			if (!All_2_window.equals(First_window)) {
 				d.close();
+			}
+			//d.uninstallExtension(ExtensionID);
 		}
-			
-		//d.uninstallExtension(ExtensionID);
-	
-		}
-		
 	}
 }
