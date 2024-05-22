@@ -1,5 +1,6 @@
 package _S_05_01_Webdriver;
 
+import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.remote.*;
@@ -11,12 +12,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class _02_Remote_Driver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MalformedURLException {
 		// TODO Auto-generated method stub
 		// Add a reference to the Selenium client jar from
 		// http://www.seleniumhq.com
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 		
@@ -27,7 +28,7 @@ public class _02_Remote_Driver {
 		FirefoxProfile firefoxProfile = new FirefoxProfile();
 		firefoxProfile.setPreference("enableNativeEvents", true);
 
-		FirefoxOptions options = new FirefoxOptions();
+	/*	FirefoxOptions options = new FirefoxOptions();
 		options.setBinary(browserBinary);
 		options.toCapabilities();
 		//delete up
@@ -42,7 +43,7 @@ public class _02_Remote_Driver {
 		 
 		// Closes the remote browser
 		 
-		driver.quit();
+		driver.quit();*/
 	}
 
 }
