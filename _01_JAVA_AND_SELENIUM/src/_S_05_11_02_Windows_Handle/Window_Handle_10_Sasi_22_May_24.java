@@ -38,11 +38,7 @@ public class Window_Handle_10_Sasi_22_May_24 {
 				d.switchTo().window(All_3_Windo);
 				Thread.sleep(1000);
 				d.close();
-
 			}
 		}
-
-
 	}
-
 }

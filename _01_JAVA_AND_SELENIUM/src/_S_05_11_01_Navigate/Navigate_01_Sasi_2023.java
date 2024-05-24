@@ -12,7 +12,7 @@ public class Navigate_01_Sasi_2023{
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.tamildailycalendar.com/tamil_daily_calendar.php");
