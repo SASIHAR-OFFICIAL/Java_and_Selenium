@@ -10,7 +10,7 @@ public class Raido_Button_06_Sasi_27_Dec_2023 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
-		System
+		
 		WebDriver d = new FirefoxDriver();
 
 		d.navigate().to("https://rahulshettyacademy.com/AutomationPractice/");
