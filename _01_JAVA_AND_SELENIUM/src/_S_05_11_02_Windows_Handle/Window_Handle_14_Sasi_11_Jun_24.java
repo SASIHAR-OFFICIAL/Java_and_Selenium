@@ -1,13 +1,10 @@
 package _S_05_11_02_Windows_Handle;
 
 import java.util.Set;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Window_Handle_14_Sasi_11_Jun_24 {
-
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("Wedriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
@@ -33,24 +30,21 @@ public class Window_Handle_14_Sasi_11_Jun_24 {
 			if (d .getCurrentUrl().equals(urlToKeepOpen)) {
 				windowHandleToKeepOpen = All_windows;
 				break;
-			}
-		}
+			}}
 // Close all other windows except the one to keep open
 		for (String All_windows : All_3_windows) {
 			if (!All_windows.equals(windowHandleToKeepOpen)) {
 				d .switchTo().window(All_windows);
 				Thread.sleep(2000);
 				d .close();
-			}
-		}	
+			}}	
 // Switch back to the window to keep open
-		if (windowHandleToKeepOpen != null) {
-			d .switchTo().window(windowHandleToKeepOpen);
-		}
+//		if (windowHandleToKeepOpen != null) {
+//			d .switchTo().window(windowHandleToKeepOpen);
+//		}
 
 // Perform any other actions on the remaining window
 // Optional: Close the browser after all actions are done
-		Thread.sleep(2000);
-		d .quit();		
-	}
-}
+//		Thread.sleep(2000);
+//		d .quit();		
+	}}
