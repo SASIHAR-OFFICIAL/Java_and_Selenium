@@ -36,8 +36,7 @@ public class Window_Handle_13_Sasi_08_Jun_24 {
 			if (d .getCurrentUrl().equals(urlToKeepOpen)) {
 				windowHandleToKeepOpen = handle;
 				break;
-			}
-		}
+			}}
 
 		// Close all other windows except the one to keep open
 		for (String handle : allWindowHandles) {
@@ -45,8 +44,7 @@ public class Window_Handle_13_Sasi_08_Jun_24 {
 				d .switchTo().window(handle);
 				Thread.sleep(2000);
 				d .close();
-			}
-		}
+			}}
 
 		// Switch back to the window to keep open
 		if (windowHandleToKeepOpen != null) {
@@ -58,8 +56,6 @@ public class Window_Handle_13_Sasi_08_Jun_24 {
 
 		// Optional: Close the browser after all actions are done
 		// d .quit();
-	}
-
-}
+	}}
 
 

@@ -1,6 +1,7 @@
 package _S_05_11_02_Windows_Handle;
 
 import java.net.URL;
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -23,19 +24,26 @@ public class Window_Handle_15_Sasi_12_Jun_24 {
 		Thread.sleep(1000);		
 		d.navigate().to("https://stackoverflow.com");
 		Thread.sleep(1000);
-		
+
 		// URL To Keep Open
 		String urlToKeepOpen= "https://www.etvbharat.com/ta/!state";
-		String TAB_ToKeepOpen = null;
-		
+
+		// Get all window handles
 		Set<String> All_3_Windows = d.getWindowHandles();
+
+		// Find the window handle of the URL to keep open
+		String TAB_ToKeepOpen = null;
 		for (String All_Windows : All_3_Windows) {
-			if (urlToKeepOpen.equals(All_3_Windows)) {
+			d.switchTo().window(All_Windows);
+			if (d.getCurrentUrl().equals(urlToKeepOpen)) {
+				TAB_ToKeepOpen = All_Windows;
+				break;
+			}}
+
+		// Close all other windows except the one to keep open
+		for (String All_Windows : All_3_Windows) {
+			if (!All_Windows.equals(TAB_ToKeepOpen)) {
 				d.switchTo().window(All_Windows);
-				
-			}
-			
-		}
-
-	}}
-
+				Thread.sleep(1000);
+				d.close();
+			}}}}
