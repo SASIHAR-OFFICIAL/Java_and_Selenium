@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Window_Handle_10_Sasi_22_May_24 {
+public class _12_Window_Handle_Sasi_22_May_24 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

@@ -4,7 +4,7 @@ import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Window_Handle_14_Sasi_11_Jun_24 {
+public class _16_Window_Handle_Keep_Wished_Open_Sasi_11_Jun_24 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("Wedriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");

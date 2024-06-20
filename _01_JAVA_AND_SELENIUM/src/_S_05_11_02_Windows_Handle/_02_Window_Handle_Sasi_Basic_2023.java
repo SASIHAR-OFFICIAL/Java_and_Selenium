@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Window_Handle_02_Sasi_Basic_2023 {
+public class _02_Window_Handle_Sasi_Basic_2023 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
