@@ -1,4 +1,4 @@
-package _S_05_11_02_Windows_Handle;
+package _S_05_11_03_Windows_Handle;
 
 import java.util.Set;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class _15_Window_Handle_Keep_Wished_Open_ChatGPT_08_Jun_24 {
+public class _01_Window_Handle_Keep_Wished_Open_ChatGPT_08_Jun_24 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

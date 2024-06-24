@@ -1,4 +1,4 @@
-package _S_05_11_02_Windows_Handle;
+package _S_05_11_03_Windows_Handle;
 
 import java.net.URL;
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class _17_Window_Handle_Keep_Wished_OpenSasi_12_Jun_24 {
+public class _03_Window_Handle_Keep_Wished_OpenSasi_12_Jun_24 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
