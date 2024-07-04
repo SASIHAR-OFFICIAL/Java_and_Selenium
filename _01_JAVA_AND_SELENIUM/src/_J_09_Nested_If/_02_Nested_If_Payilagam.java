@@ -1,5 +1,5 @@
 package _J_09_Nested_If;
-public class _01_Nested_If_02_Payilagam {
+public class _02_Nested_If_Payilagam {
 public static void main(String[] args) {
 //Creating two variables for age and weight    
 int age=16;    

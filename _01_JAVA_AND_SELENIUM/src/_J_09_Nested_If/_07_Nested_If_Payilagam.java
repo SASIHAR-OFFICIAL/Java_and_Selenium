@@ -1,5 +1,5 @@
 package _J_09_Nested_If;
-public class _01_Nested_If_07_Payilagam {
+public class _07_Nested_If_Payilagam {
 	public static void main(String[] args) {
 	int a=1, b=1, c=100;
 		if(a>b){
