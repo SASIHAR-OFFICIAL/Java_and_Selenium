@@ -2,7 +2,7 @@ package _J_07_If_Else;
 
 import java.util.Scanner;
 
-public class _12_If_else_Traffic_Light {
+public class _12_If_else_EMC_Traffic_Light {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

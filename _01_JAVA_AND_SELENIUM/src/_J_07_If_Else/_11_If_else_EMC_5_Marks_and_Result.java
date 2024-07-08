@@ -2,7 +2,7 @@ package _J_07_If_Else;
 
 import java.util.Scanner;
 
-public class _11_If_else_5_Marks_and_Result {
+public class _11_If_else_EMC_5_Marks_and_Result {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
