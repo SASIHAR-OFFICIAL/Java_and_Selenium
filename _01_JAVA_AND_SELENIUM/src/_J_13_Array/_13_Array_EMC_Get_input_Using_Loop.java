@@ -2,7 +2,7 @@ package _J_13_Array;
 
 import java.util.Scanner;
 
-public class _13_Array_EMC {
+public class _13_Array_EMC_Get_input_Using_Loop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

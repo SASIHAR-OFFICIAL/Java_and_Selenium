@@ -2,7 +2,7 @@ package _J_13_Array;
 
 import java.util.Iterator;
 
-public class _15_Array_EMC {
+public class _15_Array_EMC_Print_Using_Loop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

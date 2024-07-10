@@ -2,7 +2,7 @@ package _J_13_Array;
 
 import java.util.Scanner;
 
-public class _12_Array_EMC {
+public class _12_Array_EMC_Get_And_Print_Total {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,8 +11,7 @@ public class _12_Array_EMC {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		
-		
+			
 		input[0] = scan.nextInt();
 		input[1] = scan.nextInt();
 		input[2] = scan.nextInt();
