@@ -1,6 +1,6 @@
 package _J_02_03_Function;
 
-public class _01_Function_Example2 {
+public class _02_Function_Example2 {
 
 	void Greeting()
 	{
@@ -13,7 +13,7 @@ public class _01_Function_Example2 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		_01_Function_Example2 obj = new _01_Function_Example2();
+		_02_Function_Example2 obj = new _02_Function_Example2();
 		obj.Greeting();
 		obj.byebye();
 	}

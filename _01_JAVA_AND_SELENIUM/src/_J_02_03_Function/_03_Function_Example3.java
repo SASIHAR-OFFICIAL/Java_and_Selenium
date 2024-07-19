@@ -1,10 +1,14 @@
 package _J_02_03_Function;
 
-public class _01_Function_Example3 {
+public class _03_Function_Example3 {
 
+	
+	//  static method can call static without object
+	
 	void Greeting()
 	{
-		System.out.println("Vanakam");
+		String Vanakam = "hi";
+//		System.out.println(Vanakam);
 		byebye();
 	}
 	
@@ -14,7 +18,7 @@ public class _01_Function_Example3 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		_01_Function_Example3 obj = new _01_Function_Example3();
+		_03_Function_Example3 obj = new _03_Function_Example3();
 		obj.Greeting();
 	
 	}
