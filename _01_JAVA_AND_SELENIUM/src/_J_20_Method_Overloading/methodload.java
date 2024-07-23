@@ -27,16 +27,16 @@ class methodload
 		System.out.println(v);
 	}
 }
-public class methodload{
+public class asd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		methodload w = new methodload();
+		asd w = new asd();
 		w.display("rate");
 		w.display();
 		w.display(80);
 		w.display(88);
 		w.display('r');
-		methodload.display('z',20);	      
+		asd.display('z',20);	      
 	}
 }
