@@ -1,6 +1,6 @@
 package _J_20_Method_Overloading;
 
-class methodload
+ class methodload
 {
 	public  void display()
 	{
@@ -27,16 +27,16 @@ class methodload
 		System.out.println(v);
 	}
 }
-public class asd {
+ class methodlAoad {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		asd w = new asd();
+		methodload w = new methodload();
 		w.display("rate");
 		w.display();
 		w.display(80);
 		w.display(88);
 		w.display('r');
-		asd.display('z',20);	      
+		methodload.display('z',20);	      
 	}
 }
