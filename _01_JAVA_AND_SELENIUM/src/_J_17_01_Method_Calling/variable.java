@@ -1,5 +1,5 @@
-package _J_17_04_Method_Calling_Parthasarthy;
 
+package _J_17_01_Method_Calling;
 public class variable {
 		//import java.util.Math.max()
 		public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _J_17_01_Method_Calling_Payilagam;
+package _J_17_01_Method_Calling;
 public class Bank1 {	 		// TODO Auto-generated method stub
 int InterestRate = 3;
 		void deposit() {

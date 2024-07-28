@@ -27,7 +27,7 @@ package _J_20_Method_Overloading;
 		System.out.println(v);
 	}
 }
- class methodlAoad {
+ class methodload1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

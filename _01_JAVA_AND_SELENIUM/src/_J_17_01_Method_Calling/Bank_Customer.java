@@ -1,4 +1,4 @@
-package _J_17_04_Method_Calling_Parthasarthy;
+package _J_17_01_Method_Calling;
 // Constructor WILL have same name of CLASS NAME
 // Constructor WILL NOT have RETURN DATA TYPE
 // Constructor will be called automatically when OBJECT IS CREATED (when CLASS initialized)

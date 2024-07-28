@@ -1,4 +1,4 @@
-package _J_17_03_Method_Calling_Sasi;
+package _J_17_02_Method_Calling_Sasi;
 public class Customer_3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

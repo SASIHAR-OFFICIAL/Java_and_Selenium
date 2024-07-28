@@ -1,9 +1,8 @@
-package _J_17_02_Method_Calling_IT_ST;
+package _J_17_01_Method_Calling;
 
 public class Bank {
  
 		 private String name; 
-
 		   
 		 // bank name 
 		 Bank(String name) 

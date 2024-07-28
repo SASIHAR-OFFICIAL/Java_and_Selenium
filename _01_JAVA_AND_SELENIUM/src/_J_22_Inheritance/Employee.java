@@ -1,4 +1,8 @@
 package _J_22_Inheritance;
+
+import _J_17_01_Method_Calling.Employee;
+import _J_17_01_Method_Calling.Employee;
+
 class Employee{
  float salary=40000;
 }

@@ -1,4 +1,4 @@
-package _J_17_03_Method_Calling_Sasi;
+package _J_17_02_Method_Calling_Sasi;
 
 public class Sasi_Medhod_Calling_Customer2 {
 	public static void main(String[] args) {

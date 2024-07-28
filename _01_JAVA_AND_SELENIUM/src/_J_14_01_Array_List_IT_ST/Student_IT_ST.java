@@ -2,7 +2,11 @@ package _J_14_01_Array_List_IT_ST;
 //Java program to illustrate 
 //the concept of Aggregation. 
 import java.io.*; 
-import java.util.*; 
+import java.util.*;
+
+import _J_17_01_Method_Calling.Department;
+import _J_17_01_Method_Calling.Institute;
+import _J_17_01_Method_Calling.Student; 
 
 //student class 
 class Student_IT_ST  

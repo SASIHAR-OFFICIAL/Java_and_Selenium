@@ -21,11 +21,16 @@ public class EncapTest {
 	      age = newAge;
 	   }
 
-	  /* public void setName(String newName) {
-	      name = newName;
-	   }*/
+//	  public void setName(String newName) {
+//	      name = newName;
+//	   }
 
 	   public  void setIdNum( String newId) {
 	      idNum = newId;
 	   }
+
+	public void setName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 	}

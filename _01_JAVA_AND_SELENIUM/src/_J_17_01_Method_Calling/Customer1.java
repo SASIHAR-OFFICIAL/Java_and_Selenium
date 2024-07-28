@@ -1,4 +1,4 @@
-package _J_17_01_Method_Calling_Payilagam;
+package _J_17_01_Method_Calling;
 public class Customer1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
