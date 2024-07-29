@@ -3,9 +3,7 @@ package _J_17_01_Method_Calling;
 //Java program to illustrate 
 //the concept of Aggregation. 
 import java.io.*; 
-import java.util.*;
-
-import _J_14_01_Array_List_IT_ST.Student_IT_ST; 
+import java.util.*; 
 
 //student class 
 class Student  
@@ -31,8 +29,8 @@ class Department
 { 
    
  String name; 
- private List<Student_IT_ST> students; 
- Department(String name, List<Student_IT_ST> students)  
+ private List<Student> students; 
+ Department(String name, List<Student> students)  
  { 
        
      this.name = name; 
@@ -40,7 +38,7 @@ class Department
        
  } 
    
- public List<Student_IT_ST> getStudents()  
+ public List<Student> getStudents()  
  { 
      return students; 
  } 
@@ -66,11 +64,11 @@ class Institute
  public int getTotalStudentsInInstitute() 
  { 
      int noOfStudents = 0; 
-     List<Student_IT_ST> students;  
+     List<Student> students;  
      for(Department dept : departments) 
      { 
          students = dept.getStudents(); 
-         for(Student_IT_ST s : students) 
+         for(Student s : students) 
          { 
              noOfStudents++; 
          } 
@@ -85,20 +83,20 @@ class GFG
 { 
  public static void main (String[] args)  
  { 
-     Student_IT_ST s1 = new Student_IT_ST("Mia", 1, "CSE"); 
-     Student_IT_ST s2 = new Student_IT_ST("Priya", 2, "CSE"); 
-     Student_IT_ST s3 = new Student_IT_ST("John", 1, "EE"); 
-     Student_IT_ST s4 = new Student_IT_ST("Rahul", 2, "EE"); 
+     Student s1 = new Student("Mia", 1, "CSE"); 
+     Student s2 = new Student("Priya", 2, "CSE"); 
+     Student s3 = new Student("John", 1, "EE"); 
+     Student s4 = new Student("Rahul", 2, "EE"); 
    
      // making a List of  
      // CSE Students. 
-     List <Student_IT_ST> cse_students = new ArrayList<Student_IT_ST>(); 
+     List <Student> cse_students = new ArrayList<Student>(); 
      cse_students.add(s1); 
      cse_students.add(s2); 
        
      // making a List of  
      // EE Students 
-     List <Student_IT_ST> ee_students = new ArrayList<Student_IT_ST>(); 
+     List <Student> ee_students = new ArrayList<Student>(); 
      ee_students.add(s3); 
      ee_students.add(s4); 
        
