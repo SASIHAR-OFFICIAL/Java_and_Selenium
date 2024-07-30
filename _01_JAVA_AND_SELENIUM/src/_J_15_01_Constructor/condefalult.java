@@ -1,11 +1,11 @@
-package _J_26_Constructor_Default;
+package _J_15_01_Constructor;
 //Let us see another example of default constructor  
 //which displays the default values  
-public class construtorp_condefalult {
+public class condefalult {
 		int id=100;  
 		String name="Gopi";
 		
-		construtorp_condefalult(){
+		condefalult(){
 				
 			System.out.println(id+" "+name);
 		}
@@ -19,9 +19,9 @@ public class construtorp_condefalult {
 			}  
 	public static void main(String args[]){  
 		//creating objects  
-		construtorp_condefalult s1=new construtorp_condefalult();  
+			condefalult s1=new condefalult();  
 			
-		construtorp_condefalult s2=new construtorp_condefalult();  
+			condefalult s2=new condefalult();  
 		//displaying values of the object  
 		s1.display();  
 		s2.display();  

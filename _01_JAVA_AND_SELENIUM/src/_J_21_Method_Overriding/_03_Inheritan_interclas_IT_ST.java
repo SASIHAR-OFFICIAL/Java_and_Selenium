@@ -1,6 +1,6 @@
 package _J_21_Method_Overriding;
 interface Print1{
-	void Print1();
+	void Print2();
 	//void display();
 	void show();
 	void display();
@@ -26,11 +26,11 @@ class _03_Inheritan_interclas_IT_ST implements Showable, Print1{
 
 	public static void main(String args[]){  
 		_03_Inheritan_interclas_IT_ST obj = new _03_Inheritan_interclas_IT_ST(); 
-		Print1 obj = new Print1();
+		Print2 obj1 = new Print2();
 		//Object creation not possible in interface name
-		obj.Print1();
-		obj.show();
-		obj.display();
+		obj1.Print1();
+		obj1.show();
+		obj1.display();
 	}
 	@Override
 	public void Print1() {

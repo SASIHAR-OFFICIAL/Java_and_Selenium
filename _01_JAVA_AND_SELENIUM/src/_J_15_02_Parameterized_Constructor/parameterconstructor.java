@@ -1,4 +1,4 @@
-package _J_27_Constructor_Parameterize;
+package _J_15_02_Parameterized_Constructor;
 //Java Program to demonstrate the use of parameterized constructor 
 public class parameterconstructor {
 
