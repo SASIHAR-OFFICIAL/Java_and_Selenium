@@ -1,17 +1,23 @@
 package _J_22_Inheritance;
 
-import _J_17_01_Method_Calling.Employee;
-import _J_17_01_Method_Calling.Employee;
-
 class Employee{
- float salary=40000;
-}
+	void salary() {
+		 //float salary=400;
+		 System.out.println("salary");
+	}}
 
 class Programmer extends Employee{
- int bonus=10000;
+//	void bonus() {
+//		int bonus=10000;
+//	}
+ 
+ 
  public static void main(String args[]){
    Programmer p=new Programmer();
-   System.out.println("Programmer salary is:"+p.salary);
-   System.out.println("Bonus of Programmer is:"+p.bonus);
+//   p.bonus();
+//   p.salary();
+  
+//   System.out.println("Programmer salary is:"+p.salary());
+//   System.out.println("Bonus of Programmer is:"+p.bonus);
 }
 }

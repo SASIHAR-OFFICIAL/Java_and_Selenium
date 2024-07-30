@@ -44,7 +44,7 @@ class Association
      Bank bank = new Bank("HSBC"); 
      Employee emp = new Employee("Geetha"); 
        
-     System.out.println(emp.getEmployeeName() +  
+    System.out.println(emp.getEmployeeName() +  
             " is employee of " + bank.getBankName()); 
  } 
 }
