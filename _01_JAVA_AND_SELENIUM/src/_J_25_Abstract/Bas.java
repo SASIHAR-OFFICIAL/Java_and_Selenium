@@ -1,6 +1,9 @@
-package _J_22_Inheritance;
+package _J_25_Abstract;
 
- abstract class Bas { 
+import java.io.*; 
+import java.util.*; 
+
+abstract class Bas { 
     Bas() { System.out.println("Base Constructor Called"); } 
     abstract void fun(); 
 } 

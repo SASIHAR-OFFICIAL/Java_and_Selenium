@@ -1,4 +1,4 @@
-package _J_22_Inheritance;
+package _J_24_Polymorphism;
 class Bike{
    void run(){System.out.println("running");}
  }

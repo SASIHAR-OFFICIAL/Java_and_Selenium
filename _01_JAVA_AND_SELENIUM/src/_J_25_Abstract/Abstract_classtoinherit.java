@@ -1,4 +1,4 @@
-package _J_22_Inheritance;
+package _J_25_Abstract;
 	abstract class Base { 
 	    abstract void fun();
 	    void run() {System.out.println("Base run() called");}

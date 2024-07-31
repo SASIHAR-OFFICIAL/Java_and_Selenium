@@ -1,4 +1,7 @@
-package _J_22_Inheritance;
+package _J_21_Method_Overriding;
+
+import _J_22_Inheritance.Bike;
+
 class Vehicle{
   void run(){System.out.println("Vehicle is running");}
   }

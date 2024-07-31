@@ -1,4 +1,4 @@
-package _J_16_01_This_Keyboard_Seperate_Title;
+package _J_16_01_THIS_Keyboard_Seperate_Title;
 
 public class Teacher_Name {
 
