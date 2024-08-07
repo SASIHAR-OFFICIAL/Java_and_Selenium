@@ -1,5 +1,5 @@
 package _J_25_Abstract;
-class void1{
+public class DefaultMethods {
     interface Sayable{    
         // default method    
         default void say(){    
@@ -12,7 +12,7 @@ class void1{
             System.out.println(msg);    
         }    
     }    
-    public class DefaultMethods implements Sayable{    
+     class DefaultMethods implements Sayable{    
         public void sayMore(String msg){     // implementing abstract method    
             System.out.println(msg);    
         }    
