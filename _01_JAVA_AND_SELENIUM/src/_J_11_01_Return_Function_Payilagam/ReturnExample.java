@@ -8,6 +8,7 @@ public class ReturnExample {
 		ReturnExample add2nos = new ReturnExample();
 		int Total2 =add2nos.add();
 		System.out.println("Total 2 is " +Total2);
+		
 		}
 	private int add() {
 		// TODO Auto-generated method stub
